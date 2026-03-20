@@ -1349,7 +1349,6 @@ function Projects() {
             const ctx = canvas.getContext("2d");
             let width = canvas.width = canvas.offsetWidth;
             let height = canvas.height = canvas.offsetHeight;
-            // Create stars
             const stars = Array.from({
                 length: 250
             }).map({
@@ -1463,10 +1462,10 @@ function Projects() {
                     height: "100%",
                     zIndex: 0
                 },
-                className: "jsx-790a0e4e6c55d737"
+                className: "jsx-92869867a7dcb96b"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Projects.js",
-                lineNumber: 100,
+                lineNumber: 98,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1474,7 +1473,7 @@ function Projects() {
                     zIndex: 1,
                     background: "transparent"
                 },
-                className: "jsx-790a0e4e6c55d737" + " " + "container position-relative",
+                className: "jsx-92869867a7dcb96b" + " " + "container position-relative",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.h2, {
                         className: "mb-5 text-center",
@@ -1498,35 +1497,35 @@ function Projects() {
                         children: "Projects"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Projects.js",
-                        lineNumber: 114,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-790a0e4e6c55d737" + " " + "row",
+                        className: "jsx-92869867a7dcb96b" + " " + "row",
                         children: projects.map((item, i)=>{
                             const isEven = i % 2 === 0;
                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-790a0e4e6c55d737" + " " + "col-12 mb-4",
+                                className: "jsx-92869867a7dcb96b" + " " + "col-12 mb-4",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     style: cardStyle,
                                     onMouseMove: (e)=>handleMove(e, e.currentTarget),
                                     onMouseLeave: (e)=>resetTilt(e.currentTarget),
-                                    className: "jsx-790a0e4e6c55d737",
+                                    className: "jsx-92869867a7dcb96b",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: scanLine,
-                                            className: "jsx-790a0e4e6c55d737"
+                                            className: "jsx-92869867a7dcb96b"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Projects.js",
-                                            lineNumber: 140,
+                                            lineNumber: 136,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: shine,
-                                            className: "jsx-790a0e4e6c55d737"
+                                            className: "jsx-92869867a7dcb96b"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Projects.js",
-                                            lineNumber: 142,
+                                            lineNumber: 137,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1535,47 +1534,49 @@ function Projects() {
                                                 flexDirection: isEven ? "row" : "row-reverse",
                                                 alignItems: "center",
                                                 gap: "25px",
-                                                padding: "25px"
+                                                padding: "25px",
+                                                flexWrap: "wrap"
                                             },
-                                            className: "jsx-790a0e4e6c55d737",
+                                            className: "jsx-92869867a7dcb96b",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
-                                                        position: "relative"
+                                                        position: "relative",
+                                                        flex: "1 1 250px"
                                                     },
-                                                    className: "jsx-790a0e4e6c55d737",
+                                                    className: "jsx-92869867a7dcb96b",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: item.img,
                                                             style: imageStyle,
-                                                            className: "jsx-790a0e4e6c55d737"
+                                                            className: "jsx-92869867a7dcb96b"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 155,
+                                                            lineNumber: 150,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-790a0e4e6c55d737" + " " + "overlay",
+                                                            className: "jsx-92869867a7dcb96b" + " " + "overlay",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                                 href: item.github,
                                                                 target: "_blank",
                                                                 style: buttonStyle,
-                                                                className: "jsx-790a0e4e6c55d737",
+                                                                className: "jsx-92869867a7dcb96b",
                                                                 children: "View Code"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/components/Projects.js",
-                                                                lineNumber: 157,
+                                                                lineNumber: 152,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 156,
+                                                            lineNumber: 151,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/Projects.js",
-                                                    lineNumber: 154,
+                                                    lineNumber: 149,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
@@ -1591,32 +1592,32 @@ function Projects() {
                                                         duration: 0.7
                                                     },
                                                     style: {
-                                                        flex: 1,
+                                                        flex: "1 1 300px",
                                                         textAlign: "left"
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                             style: titleStyle,
-                                                            className: "jsx-790a0e4e6c55d737",
+                                                            className: "jsx-92869867a7dcb96b",
                                                             children: item.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 170,
+                                                            lineNumber: 164,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             style: {
                                                                 color: "#fbcfe8"
                                                             },
-                                                            className: "jsx-790a0e4e6c55d737",
+                                                            className: "jsx-92869867a7dcb96b",
                                                             children: item.text
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 171,
+                                                            lineNumber: 165,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-790a0e4e6c55d737" + " " + "d-flex flex-wrap gap-2 mt-3",
+                                                            className: "jsx-92869867a7dcb96b" + " " + "d-flex flex-wrap gap-2 mt-3",
                                                             children: item.tech.map((tech, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.span, {
                                                                     whileHover: {
                                                                         scale: 1.2,
@@ -1627,63 +1628,63 @@ function Projects() {
                                                                     children: tech
                                                                 }, index, false, {
                                                                     fileName: "[project]/src/app/components/Projects.js",
-                                                                    lineNumber: 174,
+                                                                    lineNumber: 168,
                                                                     columnNumber: 27
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 172,
+                                                            lineNumber: 166,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/Projects.js",
-                                                    lineNumber: 164,
+                                                    lineNumber: 158,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/Projects.js",
-                                            lineNumber: 144,
+                                            lineNumber: 139,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/Projects.js",
-                                    lineNumber: 134,
+                                    lineNumber: 131,
                                     columnNumber: 17
                                 }, this)
                             }, i, false, {
                                 fileName: "[project]/src/app/components/Projects.js",
-                                lineNumber: 133,
+                                lineNumber: 130,
                                 columnNumber: 15
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Projects.js",
-                        lineNumber: 129,
+                        lineNumber: 126,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/Projects.js",
-                lineNumber: 112,
+                lineNumber: 110,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "790a0e4e6c55d737",
-                children: ".overlay.jsx-790a0e4e6c55d737{opacity:0;background:#000c;border-radius:12px;justify-content:center;align-items:center;width:100%;height:100%;transition:all .3s;display:flex;position:absolute;top:0;left:0}div.jsx-790a0e4e6c55d737:hover>.overlay.jsx-790a0e4e6c55d737{opacity:1}@keyframes scan{0%{top:-100%}to{top:100%}}@keyframes shineMove{0%{left:-100%}to{left:100%}}"
+                id: "92869867a7dcb96b",
+                children: '.overlay.jsx-92869867a7dcb96b{opacity:0;background:#000c;border-radius:12px;justify-content:center;align-items:center;width:100%;height:100%;transition:all .3s;display:flex;position:absolute;top:0;left:0}div.jsx-92869867a7dcb96b:hover>.overlay.jsx-92869867a7dcb96b{opacity:1}@keyframes scan{0%{top:-100%}to{top:100%}}@keyframes shineMove{0%{left:-100%}to{left:100%}}@media (width<=768px){h2.jsx-92869867a7dcb96b{font-size:2.2rem!important}div[style*="flex-direction: row"].jsx-92869867a7dcb96b,div[style*="flex-direction: row-reverse"].jsx-92869867a7dcb96b{flex-direction:column!important;gap:15px!important}img.jsx-92869867a7dcb96b{width:100%!important;height:auto!important}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/Projects.js",
-        lineNumber: 91,
+        lineNumber: 90,
         columnNumber: 5
     }, this);
 }
 _s(Projects, "UJgi7ynoup7eqypjnwyX/s32POg=");
 _c = Projects;
-/* 🔥 STYLES */ const cardStyle = {
+/* 🔥 STYLES (unchanged except flex adjustments) */ const cardStyle = {
     background: "#0a0a0a",
     border: "1px solid #fff",
     boxShadow: "0 0 20px #ec92c0",

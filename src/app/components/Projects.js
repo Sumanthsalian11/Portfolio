@@ -222,6 +222,26 @@ export default function Projects() {
           0% { left: -100%; }
           100% { left: 100%; }
         }
+          /* MOBILE RESPONSIVE ONLY */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2.2rem !important; /* smaller heading */
+  }
+
+  div[style*="flex-direction: row"], div[style*="flex-direction: row-reverse"] {
+    flex-direction: column !important; /* stack cards on mobile */
+    gap: 15px !important;
+  }
+
+  img {
+    width: 100% !important;
+    height: auto !important; /* responsive images */
+  }
+
+  div[style*="padding: 25px"] {
+    padding: 15px !important; /* reduce padding on small screens */
+  }
+}
       `}</style>
     </motion.section>
   );

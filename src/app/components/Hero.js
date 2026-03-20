@@ -290,6 +290,41 @@ const Hero = forwardRef((props, ref) => {
           ))}
         </div>
       </div>
+      <style jsx>{`
+  @media (max-width: 1024px) {
+    div[ref='nameRef'] {
+      font-size: 3rem !important;
+    }
+    div[ref='nameRef'] > div {
+      font-size: 1.3rem !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    div[ref='nameRef'] {
+      font-size: 2.5rem !important;
+      top: 40% !important;
+    }
+    div[ref='nameRef'] > div {
+      font-size: 1rem !important;
+    }
+  }
+
+  @media (max-width: 480px) {
+    div[ref='nameRef'] {
+      font-size: 2rem !important;
+      top: 35% !important;
+    }
+    div[ref='nameRef'] > div {
+      font-size: 0.85rem !important;
+    }
+  }
+
+  canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+`}</style>
     </section>
   );
 });

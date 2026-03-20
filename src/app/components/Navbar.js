@@ -144,6 +144,34 @@ export default function Navbar({ onHomeClick }) {
           );
         })}
       </div>
+
+      {/* MOBILE RESPONSIVE CSS */}
+      <style jsx>{`
+        @media (max-width: 768px) {
+          nav {
+            width: 95% !important;       /* full width on small screens */
+            padding: 8px 15px !important; /* reduce padding */
+            margin: 10px auto !important;
+          }
+
+          nav a {
+            padding: 6px 10px !important; /* smaller link padding */
+            font-size: 0.85rem !important; /* smaller text */
+          }
+
+          .d-flex.gap-4 {
+            gap: 10px !important; /* reduce gap between links */
+            flex-wrap: wrap;      /* wrap links to new line if needed */
+          }
+        }
+
+        @media (max-width: 480px) {
+          nav a {
+            font-size: 0.75rem !important;
+            padding: 5px 8px !important;
+          }
+        }
+      `}</style>
     </nav>
   );
 }
