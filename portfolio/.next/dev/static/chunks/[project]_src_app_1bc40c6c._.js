@@ -2468,7 +2468,7 @@ function Contact() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Contact.js",
-                lineNumber: 147,
+                lineNumber: 148,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2499,7 +2499,7 @@ function Contact() {
                         children: "Contact Me"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 154,
+                        lineNumber: 155,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2522,13 +2522,13 @@ function Contact() {
                                 children: "Sumanthsalian11@gmail.com"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 176,
+                                lineNumber: 177,
                                 columnNumber: 3
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 168,
+                        lineNumber: 169,
                         columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2549,13 +2549,13 @@ function Contact() {
                                 children: "Karnataka, India📍"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 197,
+                                lineNumber: 198,
                                 columnNumber: 3
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 189,
+                        lineNumber: 190,
                         columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2585,7 +2585,7 @@ function Contact() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 219,
+                                        lineNumber: 220,
                                         columnNumber: 15
                                     }, this),
                                     hovered === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
@@ -2625,23 +2625,23 @@ function Contact() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Contact.js",
-                                            lineNumber: 245,
+                                            lineNumber: 246,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 226,
+                                        lineNumber: 227,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 211,
+                                lineNumber: 212,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 209,
+                        lineNumber: 210,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
@@ -2667,7 +2667,7 @@ function Contact() {
                                 children: "Share Your Opinion"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 263,
+                                lineNumber: 264,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.form, {
@@ -2692,7 +2692,7 @@ function Contact() {
                                         style: inputStyle
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 281,
+                                        lineNumber: 282,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2705,7 +2705,7 @@ function Contact() {
                                         style: inputStyle
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 290,
+                                        lineNumber: 291,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2721,7 +2721,7 @@ function Contact() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 299,
+                                        lineNumber: 300,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.button, {
@@ -2734,7 +2734,7 @@ function Contact() {
                                         children: "Submit"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 308,
+                                        lineNumber: 309,
                                         columnNumber: 13
                                     }, this),
                                     opinionSubmitted && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.p, {
@@ -2752,31 +2752,31 @@ function Contact() {
                                         children: "Thank you! Your opinion has been submitted."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 317,
+                                        lineNumber: 318,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 269,
+                                lineNumber: 270,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 257,
+                        lineNumber: 258,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/Contact.js",
-                lineNumber: 152,
+                lineNumber: 153,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/Contact.js",
-        lineNumber: 139,
+        lineNumber: 140,
         columnNumber: 5
     }, this);
 }
