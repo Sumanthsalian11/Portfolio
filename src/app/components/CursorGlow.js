@@ -30,10 +30,10 @@ export default function CursorGlow() {
       ref={glowRef}
       style={{
         position: "fixed",
-        width: "30px",
-        height: "30px",
+        width: "15px",            // smaller size
+        height: "15px",           // smaller size
         borderRadius: "50%",
-        background: "radial-gradient(circle, rgb(4, 36, 36), transparent)",
+        background: "radial-gradient(circle, rgba(255,255,255,0.8), transparent)", // white glow
         pointerEvents: "none",
         transform: "translate(-50%, -50%)",
         left: "50%",
