@@ -7,6 +7,7 @@ __turbopack_context__.s([
     ()=>Navbar
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/portfolio/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/portfolio/node_modules/styled-jsx/style.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/portfolio/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 (()=>{
     const e = new Error("Cannot find module 'framer-motion'");
@@ -16,6 +17,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 function Navbar({ onHomeClick }) {
@@ -71,7 +73,6 @@ function Navbar({ onHomeClick }) {
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: "fixed-top",
         style: {
             display: "flex",
             justifyContent: "center",
@@ -85,118 +86,126 @@ function Navbar({ onHomeClick }) {
             margin: "10px auto",
             border: "1px solid #12d2d29c"
         },
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "d-flex gap-4 justify-content-center w-100 position-relative",
-            children: sections.map((sec)=>{
-                const isActive = sec === activeSection;
-                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        position: "relative",
-                        cursor: "pointer"
-                    },
-                    onMouseEnter: ()=>setHoveredSection(sec),
-                    onMouseLeave: ()=>setHoveredSection(null),
-                    onClick: ()=>handleClick(sec),
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.a, {
-                            className: "text-white text-decoration-none fw-bold",
-                            style: {
-                                padding: "8px 15px",
-                                borderRadius: "15px",
-                                position: "relative",
-                                zIndex: 1,
-                                transition: "all 0.3s ease",
-                                color: isActive ? "#00ffff" : "white",
-                                textShadow: isActive ? "0 0 5px #00ffff, 0 0 10px #00cfff, 0 0 20px #00ffff88" : "none"
-                            },
-                            animate: isActive ? {
-                                textShadow: [
-                                    "0 0 5px #00ffff, 0 0 10px #00cfff, 0 0 20px #00ffff88",
-                                    "0 0 10px #00ffff, 0 0 20px #00cfff, 0 0 30px #00ffffaa",
-                                    "0 0 5px #00ffff, 0 0 10px #00cfff, 0 0 20px #00ffff88"
-                                ]
-                            } : {},
-                            transition: {
-                                repeat: isActive ? Infinity : 0,
-                                duration: 1.2,
-                                ease: "easeInOut"
-                            },
-                            children: sec.toUpperCase()
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/components/Navbar.js",
-                            lineNumber: 75,
-                            columnNumber: 15
-                        }, this),
-                        isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
-                            layout: true,
-                            initial: {
-                                scaleX: 0
-                            },
-                            animate: {
-                                scaleX: 1
-                            },
-                            transition: {
-                                type: "spring",
-                                stiffness: 400,
-                                damping: 20
-                            },
-                            style: {
-                                position: "absolute",
-                                bottom: "-5px",
-                                left: "0",
-                                width: "100%",
-                                height: "3px",
-                                borderRadius: "2px",
-                                background: "linear-gradient(90deg, #00ffff, #00cfff)",
-                                boxShadow: "0 0 8px #00ffff, 0 0 15px #00cfff"
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/components/Navbar.js",
-                            lineNumber: 106,
-                            columnNumber: 17
-                        }, this),
-                        hoveredSection === sec && !isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
-                            initial: {
-                                scaleX: 0
-                            },
-                            animate: {
-                                scaleX: 1
-                            },
-                            exit: {
-                                scaleX: 0
-                            },
-                            transition: {
-                                duration: 0.3,
-                                ease: "easeInOut"
-                            },
-                            style: {
-                                position: "absolute",
-                                bottom: "-5px",
-                                left: "0",
-                                width: "100%",
-                                height: "3px",
-                                borderRadius: "2px",
-                                background: "linear-gradient(90deg, #dc9bd9, #ec4646)",
-                                boxShadow: "0 0 6px #ff00ff, 0 0 12px #ff69b4"
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/components/Navbar.js",
-                            lineNumber: 126,
-                            columnNumber: 17
-                        }, this)
-                    ]
-                }, sec, true, {
-                    fileName: "[project]/src/app/components/Navbar.js",
-                    lineNumber: 67,
-                    columnNumber: 13
-                }, this);
-            })
-        }, void 0, false, {
-            fileName: "[project]/src/app/components/Navbar.js",
-            lineNumber: 62,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        className: "jsx-625b37d060ade47d" + " " + "fixed-top",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "jsx-625b37d060ade47d" + " " + "d-flex gap-4 justify-content-center w-100 position-relative",
+                children: sections.map((sec)=>{
+                    const isActive = sec === activeSection;
+                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        style: {
+                            position: "relative",
+                            cursor: "pointer"
+                        },
+                        onMouseEnter: ()=>setHoveredSection(sec),
+                        onMouseLeave: ()=>setHoveredSection(null),
+                        onClick: ()=>handleClick(sec),
+                        className: "jsx-625b37d060ade47d",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.a, {
+                                className: "text-white text-decoration-none fw-bold",
+                                style: {
+                                    padding: "8px 15px",
+                                    borderRadius: "15px",
+                                    position: "relative",
+                                    zIndex: 1,
+                                    transition: "all 0.3s ease",
+                                    color: isActive ? "#00ffff" : "white",
+                                    textShadow: isActive ? "0 0 5px #00ffff, 0 0 10px #00cfff, 0 0 20px #00ffff88" : "none"
+                                },
+                                animate: isActive ? {
+                                    textShadow: [
+                                        "0 0 5px #00ffff, 0 0 10px #00cfff, 0 0 20px #00ffff88",
+                                        "0 0 10px #00ffff, 0 0 20px #00cfff, 0 0 30px #00ffffaa",
+                                        "0 0 5px #00ffff, 0 0 10px #00cfff, 0 0 20px #00ffff88"
+                                    ]
+                                } : {},
+                                transition: {
+                                    repeat: isActive ? Infinity : 0,
+                                    duration: 1.2,
+                                    ease: "easeInOut"
+                                },
+                                children: sec.toUpperCase()
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/Navbar.js",
+                                lineNumber: 75,
+                                columnNumber: 15
+                            }, this),
+                            isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
+                                layout: true,
+                                initial: {
+                                    scaleX: 0
+                                },
+                                animate: {
+                                    scaleX: 1
+                                },
+                                transition: {
+                                    type: "spring",
+                                    stiffness: 400,
+                                    damping: 20
+                                },
+                                style: {
+                                    position: "absolute",
+                                    bottom: "-5px",
+                                    left: "0",
+                                    width: "100%",
+                                    height: "3px",
+                                    borderRadius: "2px",
+                                    background: "linear-gradient(90deg, #00ffff, #00cfff)",
+                                    boxShadow: "0 0 8px #00ffff, 0 0 15px #00cfff"
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/Navbar.js",
+                                lineNumber: 106,
+                                columnNumber: 17
+                            }, this),
+                            hoveredSection === sec && !isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
+                                initial: {
+                                    scaleX: 0
+                                },
+                                animate: {
+                                    scaleX: 1
+                                },
+                                exit: {
+                                    scaleX: 0
+                                },
+                                transition: {
+                                    duration: 0.3,
+                                    ease: "easeInOut"
+                                },
+                                style: {
+                                    position: "absolute",
+                                    bottom: "-5px",
+                                    left: "0",
+                                    width: "100%",
+                                    height: "3px",
+                                    borderRadius: "2px",
+                                    background: "linear-gradient(90deg, #dc9bd9, #ec4646)",
+                                    boxShadow: "0 0 6px #ff00ff, 0 0 12px #ff69b4"
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/Navbar.js",
+                                lineNumber: 126,
+                                columnNumber: 17
+                            }, this)
+                        ]
+                    }, sec, true, {
+                        fileName: "[project]/src/app/components/Navbar.js",
+                        lineNumber: 67,
+                        columnNumber: 13
+                    }, this);
+                })
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/Navbar.js",
+                lineNumber: 62,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                id: "625b37d060ade47d",
+                children: "@media (width<=768px){nav.jsx-625b37d060ade47d{width:95%!important;margin:10px auto!important;padding:8px 15px!important}nav.jsx-625b37d060ade47d a.jsx-625b37d060ade47d{padding:6px 10px!important;font-size:.85rem!important}.d-flex.gap-4.jsx-625b37d060ade47d{flex-wrap:wrap;gap:10px!important}}@media (width<=480px){nav.jsx-625b37d060ade47d a.jsx-625b37d060ade47d{padding:5px 8px!important;font-size:.75rem!important}}"
+            }, void 0, false, void 0, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/app/components/Navbar.js",
         lineNumber: 45,
         columnNumber: 5
@@ -218,6 +227,7 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/portfolio/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/portfolio/node_modules/styled-jsx/style.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/portfolio/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 (()=>{
     const e = new Error("Cannot find module 'three'");
@@ -232,6 +242,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -501,6 +512,7 @@ const Hero = /*#__PURE__*/ _s((0, __TURBOPACK__imported__module__$5b$project$5d2
             background: "radial-gradient(circle at center, #000000, #110000)",
             perspective: "1000px"
         },
+        className: "jsx-cdd420ba0deaf33a",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("canvas", {
                 ref: canvasRef,
@@ -508,7 +520,8 @@ const Hero = /*#__PURE__*/ _s((0, __TURBOPACK__imported__module__$5b$project$5d2
                     position: "absolute",
                     top: 0,
                     left: 0
-                }
+                },
+                className: "jsx-cdd420ba0deaf33a"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Hero.js",
                 lineNumber: 267,
@@ -528,6 +541,7 @@ const Hero = /*#__PURE__*/ _s((0, __TURBOPACK__imported__module__$5b$project$5d2
                     textShadow: "0 0 20px #ff4500, 0 0 40px #ff8c00, 0 0 60px #ffcc00",
                     transformStyle: "preserve-3d"
                 },
+                className: "jsx-cdd420ba0deaf33a",
                 children: [
                     "Hi, I am Sumanth",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -536,8 +550,10 @@ const Hero = /*#__PURE__*/ _s((0, __TURBOPACK__imported__module__$5b$project$5d2
                             fontSize: "1.5rem",
                             fontWeight: "500"
                         },
+                        className: "jsx-cdd420ba0deaf33a",
                         children: titles.map((title, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 ref: (el)=>titleRefs.current[i] = el,
+                                className: "jsx-cdd420ba0deaf33a",
                                 children: title
                             }, i, false, {
                                 fileName: "[project]/src/app/components/Hero.js",
@@ -554,7 +570,11 @@ const Hero = /*#__PURE__*/ _s((0, __TURBOPACK__imported__module__$5b$project$5d2
                 fileName: "[project]/src/app/components/Hero.js",
                 lineNumber: 269,
                 columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0))
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                id: "cdd420ba0deaf33a",
+                children: "@media (width<=1024px){div[ref=nameRef].jsx-cdd420ba0deaf33a{font-size:3rem!important}div[ref=nameRef].jsx-cdd420ba0deaf33a>div.jsx-cdd420ba0deaf33a{font-size:1.3rem!important}}@media (width<=768px){div[ref=nameRef].jsx-cdd420ba0deaf33a{font-size:2.5rem!important;top:40%!important}div[ref=nameRef].jsx-cdd420ba0deaf33a>div.jsx-cdd420ba0deaf33a{font-size:1rem!important}}@media (width<=480px){div[ref=nameRef].jsx-cdd420ba0deaf33a{font-size:2rem!important;top:35%!important}div[ref=nameRef].jsx-cdd420ba0deaf33a>div.jsx-cdd420ba0deaf33a{font-size:.85rem!important}}canvas.jsx-cdd420ba0deaf33a{width:100%!important;height:100%!important}"
+            }, void 0, false, void 0, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/Hero.js",
@@ -1349,6 +1369,7 @@ function Projects() {
             const ctx = canvas.getContext("2d");
             let width = canvas.width = canvas.offsetWidth;
             let height = canvas.height = canvas.offsetHeight;
+            // Create stars
             const stars = Array.from({
                 length: 250
             }).map({
@@ -1462,10 +1483,10 @@ function Projects() {
                     height: "100%",
                     zIndex: 0
                 },
-                className: "jsx-92869867a7dcb96b"
+                className: "jsx-2eb9103febad8320"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Projects.js",
-                lineNumber: 98,
+                lineNumber: 100,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1473,7 +1494,7 @@ function Projects() {
                     zIndex: 1,
                     background: "transparent"
                 },
-                className: "jsx-92869867a7dcb96b" + " " + "container position-relative",
+                className: "jsx-2eb9103febad8320" + " " + "container position-relative",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.h2, {
                         className: "mb-5 text-center",
@@ -1497,35 +1518,35 @@ function Projects() {
                         children: "Projects"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Projects.js",
-                        lineNumber: 111,
+                        lineNumber: 114,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-92869867a7dcb96b" + " " + "row",
+                        className: "jsx-2eb9103febad8320" + " " + "row",
                         children: projects.map((item, i)=>{
                             const isEven = i % 2 === 0;
                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-92869867a7dcb96b" + " " + "col-12 mb-4",
+                                className: "jsx-2eb9103febad8320" + " " + "col-12 mb-4",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     style: cardStyle,
                                     onMouseMove: (e)=>handleMove(e, e.currentTarget),
                                     onMouseLeave: (e)=>resetTilt(e.currentTarget),
-                                    className: "jsx-92869867a7dcb96b",
+                                    className: "jsx-2eb9103febad8320",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: scanLine,
-                                            className: "jsx-92869867a7dcb96b"
+                                            className: "jsx-2eb9103febad8320"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Projects.js",
-                                            lineNumber: 136,
+                                            lineNumber: 140,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: shine,
-                                            className: "jsx-92869867a7dcb96b"
+                                            className: "jsx-2eb9103febad8320"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Projects.js",
-                                            lineNumber: 137,
+                                            lineNumber: 142,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1534,49 +1555,47 @@ function Projects() {
                                                 flexDirection: isEven ? "row" : "row-reverse",
                                                 alignItems: "center",
                                                 gap: "25px",
-                                                padding: "25px",
-                                                flexWrap: "wrap"
+                                                padding: "25px"
                                             },
-                                            className: "jsx-92869867a7dcb96b",
+                                            className: "jsx-2eb9103febad8320",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
-                                                        position: "relative",
-                                                        flex: "1 1 250px"
+                                                        position: "relative"
                                                     },
-                                                    className: "jsx-92869867a7dcb96b",
+                                                    className: "jsx-2eb9103febad8320",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: item.img,
                                                             style: imageStyle,
-                                                            className: "jsx-92869867a7dcb96b"
+                                                            className: "jsx-2eb9103febad8320"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 150,
+                                                            lineNumber: 155,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-92869867a7dcb96b" + " " + "overlay",
+                                                            className: "jsx-2eb9103febad8320" + " " + "overlay",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                                 href: item.github,
                                                                 target: "_blank",
                                                                 style: buttonStyle,
-                                                                className: "jsx-92869867a7dcb96b",
+                                                                className: "jsx-2eb9103febad8320",
                                                                 children: "View Code"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/components/Projects.js",
-                                                                lineNumber: 152,
+                                                                lineNumber: 157,
                                                                 columnNumber: 25
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 151,
+                                                            lineNumber: 156,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/Projects.js",
-                                                    lineNumber: 149,
+                                                    lineNumber: 154,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
@@ -1592,32 +1611,32 @@ function Projects() {
                                                         duration: 0.7
                                                     },
                                                     style: {
-                                                        flex: "1 1 300px",
+                                                        flex: 1,
                                                         textAlign: "left"
                                                     },
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                             style: titleStyle,
-                                                            className: "jsx-92869867a7dcb96b",
+                                                            className: "jsx-2eb9103febad8320",
                                                             children: item.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 164,
+                                                            lineNumber: 170,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             style: {
                                                                 color: "#fbcfe8"
                                                             },
-                                                            className: "jsx-92869867a7dcb96b",
+                                                            className: "jsx-2eb9103febad8320",
                                                             children: item.text
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 165,
+                                                            lineNumber: 171,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-92869867a7dcb96b" + " " + "d-flex flex-wrap gap-2 mt-3",
+                                                            className: "jsx-2eb9103febad8320" + " " + "d-flex flex-wrap gap-2 mt-3",
                                                             children: item.tech.map((tech, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.span, {
                                                                     whileHover: {
                                                                         scale: 1.2,
@@ -1628,63 +1647,63 @@ function Projects() {
                                                                     children: tech
                                                                 }, index, false, {
                                                                     fileName: "[project]/src/app/components/Projects.js",
-                                                                    lineNumber: 168,
+                                                                    lineNumber: 174,
                                                                     columnNumber: 27
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/Projects.js",
-                                                            lineNumber: 166,
+                                                            lineNumber: 172,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/Projects.js",
-                                                    lineNumber: 158,
+                                                    lineNumber: 164,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/Projects.js",
-                                            lineNumber: 139,
+                                            lineNumber: 144,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/Projects.js",
-                                    lineNumber: 131,
+                                    lineNumber: 134,
                                     columnNumber: 17
                                 }, this)
                             }, i, false, {
                                 fileName: "[project]/src/app/components/Projects.js",
-                                lineNumber: 130,
+                                lineNumber: 133,
                                 columnNumber: 15
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Projects.js",
-                        lineNumber: 126,
+                        lineNumber: 129,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/Projects.js",
-                lineNumber: 110,
+                lineNumber: 112,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "92869867a7dcb96b",
-                children: '.overlay.jsx-92869867a7dcb96b{opacity:0;background:#000c;border-radius:12px;justify-content:center;align-items:center;width:100%;height:100%;transition:all .3s;display:flex;position:absolute;top:0;left:0}div.jsx-92869867a7dcb96b:hover>.overlay.jsx-92869867a7dcb96b{opacity:1}@keyframes scan{0%{top:-100%}to{top:100%}}@keyframes shineMove{0%{left:-100%}to{left:100%}}@media (width<=768px){h2.jsx-92869867a7dcb96b{font-size:2.2rem!important}div[style*="flex-direction: row"].jsx-92869867a7dcb96b,div[style*="flex-direction: row-reverse"].jsx-92869867a7dcb96b{flex-direction:column!important;gap:15px!important}img.jsx-92869867a7dcb96b{width:100%!important;height:auto!important}}'
+                id: "2eb9103febad8320",
+                children: '.overlay.jsx-2eb9103febad8320{opacity:0;background:#000c;border-radius:12px;justify-content:center;align-items:center;width:100%;height:100%;transition:all .3s;display:flex;position:absolute;top:0;left:0}div.jsx-2eb9103febad8320:hover>.overlay.jsx-2eb9103febad8320{opacity:1}@keyframes scan{0%{top:-100%}to{top:100%}}@keyframes shineMove{0%{left:-100%}to{left:100%}}@media (width<=768px){h2.jsx-2eb9103febad8320{font-size:2.2rem!important}div[style*="flex-direction: row"].jsx-2eb9103febad8320,div[style*="flex-direction: row-reverse"].jsx-2eb9103febad8320{flex-direction:column!important;gap:15px!important}img.jsx-2eb9103febad8320{width:100%!important;height:auto!important}div[style*="padding: 25px"].jsx-2eb9103febad8320{padding:15px!important}}'
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/Projects.js",
-        lineNumber: 90,
+        lineNumber: 91,
         columnNumber: 5
     }, this);
 }
 _s(Projects, "UJgi7ynoup7eqypjnwyX/s32POg=");
 _c = Projects;
-/* 🔥 STYLES (unchanged except flex adjustments) */ const cardStyle = {
+/* 🔥 STYLES */ const cardStyle = {
     background: "#0a0a0a",
     border: "1px solid #fff",
     boxShadow: "0 0 20px #ec92c0",
@@ -2384,32 +2403,6 @@ function Contact() {
             })["Contact.useEffect"];
         }
     }["Contact.useEffect"], []);
-    // Original contact form handlers (if you plan to use it separately)
-    const handleChange = (e)=>{
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value
-        });
-    };
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        const templateParams = {
-            from_name: formData.name,
-            from_email: formData.email,
-            message: formData.remarks
-        };
-        emailjs.send("service_hrpluvh", "template_em7dqhj", templateParams, "IhNzmuJddVPQFZCKU").then(()=>{
-            setSubmitted(true);
-            setFormData({
-                name: "",
-                email: "",
-                remarks: ""
-            });
-            setTimeout(()=>setSubmitted(false), 3000);
-        }).catch(()=>{
-            alert("Oops! Something went wrong. Please try again.");
-        });
-    };
     // Small "Share Your Opinion" form handlers
     const handleOpinionChange = (e)=>{
         setOpinionData({
@@ -2469,7 +2462,7 @@ function Contact() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/components/Contact.js",
-                lineNumber: 148,
+                lineNumber: 122,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2500,7 +2493,7 @@ function Contact() {
                         children: "Contact Me"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 155,
+                        lineNumber: 129,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2523,13 +2516,13 @@ function Contact() {
                                 children: "Sumanthsalian11@gmail.com"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 177,
+                                lineNumber: 151,
                                 columnNumber: 3
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 169,
+                        lineNumber: 143,
                         columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2550,13 +2543,13 @@ function Contact() {
                                 children: "Karnataka, India📍"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 198,
+                                lineNumber: 172,
                                 columnNumber: 3
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 190,
+                        lineNumber: 164,
                         columnNumber: 1
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2586,7 +2579,7 @@ function Contact() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 220,
+                                        lineNumber: 194,
                                         columnNumber: 15
                                     }, this),
                                     hovered === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
@@ -2626,23 +2619,23 @@ function Contact() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/Contact.js",
-                                            lineNumber: 246,
+                                            lineNumber: 220,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 227,
+                                        lineNumber: 201,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 212,
+                                lineNumber: 186,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 210,
+                        lineNumber: 184,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.div, {
@@ -2668,7 +2661,7 @@ function Contact() {
                                 children: "Share Your Opinion"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 264,
+                                lineNumber: 238,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.form, {
@@ -2693,7 +2686,7 @@ function Contact() {
                                         style: inputStyle
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 282,
+                                        lineNumber: 256,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2706,7 +2699,7 @@ function Contact() {
                                         style: inputStyle
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 291,
+                                        lineNumber: 265,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -2722,7 +2715,7 @@ function Contact() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 300,
+                                        lineNumber: 274,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.button, {
@@ -2735,7 +2728,7 @@ function Contact() {
                                         children: "Submit"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 309,
+                                        lineNumber: 283,
                                         columnNumber: 13
                                     }, this),
                                     opinionSubmitted && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$portfolio$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(motion.p, {
@@ -2753,31 +2746,31 @@ function Contact() {
                                         children: "Thank you! Your opinion has been submitted."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/Contact.js",
-                                        lineNumber: 318,
+                                        lineNumber: 292,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/Contact.js",
-                                lineNumber: 270,
+                                lineNumber: 244,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/Contact.js",
-                        lineNumber: 258,
+                        lineNumber: 232,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/Contact.js",
-                lineNumber: 153,
+                lineNumber: 127,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/Contact.js",
-        lineNumber: 140,
+        lineNumber: 114,
         columnNumber: 5
     }, this);
 }

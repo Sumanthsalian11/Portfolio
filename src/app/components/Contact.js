@@ -79,32 +79,6 @@ export default function Contact() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Original contact form handlers (if you plan to use it separately)
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const templateParams = {
-      from_name: formData.name,
-      from_email: formData.email,
-      message: formData.remarks,
-    };
-
-    emailjs
-      .send("service_hrpluvh", "template_em7dqhj", templateParams, "IhNzmuJddVPQFZCKU")
-      .then(() => {
-        setSubmitted(true);
-        setFormData({ name: "", email: "", remarks: "" });
-        setTimeout(() => setSubmitted(false), 3000);
-      })
-      .catch(() => {
-        alert("Oops! Something went wrong. Please try again.");
-      });
-  };
-
   // Small "Share Your Opinion" form handlers
   const handleOpinionChange = (e) => {
     setOpinionData({ ...opinionData, [e.target.name]: e.target.value });
